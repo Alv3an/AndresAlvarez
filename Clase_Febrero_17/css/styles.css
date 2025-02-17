@@ -1,13 +1,23 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     background-color: aqua;
 }
-h1{
+
+h1 {
     color: green;
     font-size: 4rem;
 }
-h1:hover::first-letter{
+
+h1:hover::first-letter {
+    color: red;
+}
+
+div{
+    background-color: red;
+}
+
+.div__text--negrita {
     color: red;
 }
