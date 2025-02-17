@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 50%;
+    margin: 40px auto;
+    background: white;
+    border-radius: 3%;
+    padding: 40px;
+    /* box-shadow: 5px 5px 15px black; */
+    display: flex;
+}
+
+#cont_izquierda {
+    width: 20%;
+    padding: 3%;
+    padding-right: 20px;
+    border: 2px solid black;
+}
+
+#cont_derecha {
+    width: 65%;
+    padding-left: 20px;
+}
+
+#foto_personal {
+    position: relative;
+    width: 160px;
+    height: 220px;
+    z-index: 1;
+    padding: 2%;
+}
+
+#foto_telf {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+#foto_email {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+#tit_me {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1%;
+}
+
+#tit_contacto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-top: 180px;
+
+}
+
+#tit_nombre {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    margin-bottom: 1%;
+}
+
+#tit_cargo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border-bottom: 2px;
+    display: inline-block;
+}
+
+#tit_experiencia {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+b {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+
+.contact p,
+.about p {
+    font-size: 14px;
+}
