@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 30px, 100vh repeat(4, 50vh) repeat(4, 100vh) 30px;
+    grid-template-areas:
+        "header"
+        "A"
+        "uno"
+        "dos"
+        "tres"
+        "cuatro"
+        "B"
+        "C"
+        "D"
+        "footer"
+        "under_bar"
+    ;
+}
+
+header {
+    grid-area: header;
+    background-color: aqua;
+}
+
+#A {
+    grid-area: A;
+    background-color: blanchedalmond;
+}
+
+#uno {
+    grid-area: uno;
+    background-color: blueviolet;
+}
+
+#dos {
+    grid-area: dos;
+    background-color: burlywood;
+}
+
+#tres {
+    grid-area: tres;
+    background-color: brown;
+}
+
+#cuatro {
+    grid-area: cuatro;
+    background-color: black;
+}
+
+#B {
+    grid-area: B;
+    background-color: darkblue;
+}
+
+#C {
+    grid-area: C;
+    background-color: yellow;
+}
+
+#D {
+    grid-area: D;
+    background-color: violet;
+}
+
+footer {
+    grid-area: footer;
+    background-color: azure;
+}
+
+#under_bar {
+    grid-area: under_bar;
+    background-color: tomato;
+}
+
+/*TABLETA*/
+@media(min-width: 500px) and (max-width: 700px) {
+    .container {
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 10vh, 80vh repeat(4, 50vh) repeat(3, 100vh) 70vh 30px;
+        grid-template-areas:
+            "header header"
+            "A A"
+            "uno dos"
+            "tres cuatro"
+            "B B"
+            "C C"
+            "D D"
+            "footer footer"
+            "under_bar under_bar"
+        ;
+    }
+}
