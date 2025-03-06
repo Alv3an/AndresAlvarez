@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    margin: 0%;
+    padding: 0%;
+    border: solid;
+    border: 1%;
+}
+
+#logo_sup {
+    border: solid white;
+    width: 40vw;
+    height: 23vh;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 5%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #006614;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    background-image: url('/Tarea_Febrero_20/IMG/Uniamazonia-Sede-Porvenir.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    /* background: url('Uniamazonia-Sede-Porvenir.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7; */
+    /* background: radial-gradient(to circle, white transparent 25%); */
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #006614;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relativa;
+    bottom: 0;
+    width: 100%;
+}
